@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .result {
+      display: flex;
+      min-height: 10vh;
+      width: 80%;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+      border-bottom: 1px solid rgba(0,0,0,0.4);
+  }
+  ul {
+      width:50%;
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+  }
